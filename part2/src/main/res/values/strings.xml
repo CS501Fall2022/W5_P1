@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InterFragmentCommunication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="frag_1">Fragment1</string>
+    <string name="frag_2">Fragment2</string>
+
+</resources>
