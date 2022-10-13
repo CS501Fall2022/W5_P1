@@ -7,10 +7,10 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/top_fragment"
-        android:name="com.example.part2.topfragment"
-        android:layout_width="347dp"
-        android:layout_height="235dp"
+        android:id="@+id/top_fragment2"
+        android:name="com.example.part2.topfragment2"
+        android:layout_width="383dp"
+        android:layout_height="351dp"
         android:text="@string/frag_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,10 +20,10 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <fragment
-        android:id="@+id/bottom_fragment"
-        android:name="com.example.part2.bottomFragment"
-        android:layout_width="413dp"
-        android:layout_height="309dp"
+        android:id="@+id/bottom_fragment2"
+        android:name="com.example.part2.bottomFragment2"
+        android:layout_width="353dp"
+        android:layout_height="330dp"
         android:text="@string/frag_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

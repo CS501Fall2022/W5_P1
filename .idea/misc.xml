@@ -11,9 +11,12 @@
         <entry key="interfragmentcommunication2/src/main/res/layout/fragment_home.xml" value="0.3020833333333333" />
         <entry key="interfragmentcommunication2/src/main/res/layout/fragment_notifications.xml" value="0.3020833333333333" />
         <entry key="part2/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="part2/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="part2/src/main/res/layout/fragment_bottom.xml" value="0.28771289537712896" />
+        <entry key="part2/src/main/res/layout/fragment_bottom2.xml" value="0.1259124087591241" />
         <entry key="part2/src/main/res/layout/fragment_bottome.xml" value="0.2864963503649635" />
         <entry key="part2/src/main/res/layout/fragment_topfragment.xml" value="0.24635416666666668" />
+        <entry key="part2/src/main/res/layout/fragment_topfragment2.xml" value="0.1078125" />
       </map>
     </option>
   </component>

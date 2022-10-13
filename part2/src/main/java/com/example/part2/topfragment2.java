@@ -14,12 +14,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class topfragment extends Fragment {
+public class topfragment2 extends Fragment {
     //MainActivity.OnDataPass dataPasser;
     private Button btnClick;
     private EditText editText;
@@ -39,7 +38,7 @@ public class topfragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public topfragment() {
+    public topfragment2() {
         // Required empty public constructor
     }
 
@@ -52,8 +51,8 @@ public class topfragment extends Fragment {
      * @return A new instance of fragment topfragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static topfragment newInstance(String param1, String param2) {
-        topfragment fragment = new topfragment();
+    public static topfragment2 newInstance(String param1, String param2) {
+        topfragment2 fragment = new topfragment2();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -87,7 +86,7 @@ public class topfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v =  inflater.inflate(R.layout.fragment_topfragment, container, false);
+        View v =  inflater.inflate(R.layout.fragment_topfragment2, container, false);
         listview = v.findViewById(R.id.list_items);
 
         List<String> list = new ArrayList<>();

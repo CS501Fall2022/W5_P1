@@ -1,26 +1,22 @@
 package com.example.part2;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
+
 import android.os.Bundle;
 
-import androidx.core.content.ContextCompat;
+
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import java.io.File;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link bottomFragment#newInstance} factory method to
+ * Use the {@link bottomFragment2#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class bottomFragment extends Fragment {
+public class bottomFragment2 extends Fragment {
     private TextView text;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,7 +27,7 @@ public class bottomFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public bottomFragment() {
+    public bottomFragment2() {
         // Required empty public constructor
     }
 
@@ -44,8 +40,8 @@ public class bottomFragment extends Fragment {
      * @return A new instance of fragment bottomFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static bottomFragment newInstance(String param1, String param2) {
-        bottomFragment fragment = new bottomFragment();
+    public static bottomFragment2 newInstance(String param1, String param2) {
+        bottomFragment2 fragment = new bottomFragment2();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -68,7 +64,7 @@ public class bottomFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v =  inflater.inflate(R.layout.fragment_bottom, container, false);
+        View v =  inflater.inflate(R.layout.fragment_bottom2, container, false);
         text = v.findViewById(R.id.text_input);
 
         return v;

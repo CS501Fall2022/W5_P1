@@ -3,22 +3,18 @@ package com.example.part2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.EditText;
 
-import java.io.File;
-
-public class MainActivity extends AppCompatActivity implements topfragment.Topfraglistener {
+public class MainActivity extends AppCompatActivity implements topfragment2.Topfraglistener {
     //private topfragment topfrag;
-    private bottomFragment botfrag;
+    private bottomFragment2 botfrag;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        botfrag = new bottomFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.bottom_fragment, botfrag).commit();
+        setContentView(R.layout.activity_main2);
+        botfrag = new bottomFragment2();
+        getSupportFragmentManager().beginTransaction().replace(R.id.bottom_fragment2, botfrag).commit();
     }
 
     @Override
