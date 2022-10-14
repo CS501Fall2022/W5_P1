@@ -1,6 +1,7 @@
 package com.example.part2;
 
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 
@@ -18,6 +19,7 @@ import android.widget.TextView;
  */
 public class bottomFragment2 extends Fragment {
     private TextView text;
+    private MediaPlayer mp;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -75,22 +77,32 @@ public class bottomFragment2 extends Fragment {
         if(img.equals("dog"))
         {
             text.setBackgroundResource(R.drawable.dog);
+            mp = MediaPlayer.create(getContext().getApplicationContext(), R.raw.bark);
+            mp.start();
         }
         else if(img.equals("cow"))
         {
             text.setBackgroundResource(R.drawable.cow);
+            mp = MediaPlayer.create(getContext().getApplicationContext(), R.raw.moo);
+            mp.start();
         }
         else if(img.equals("cat"))
         {
             text.setBackgroundResource(R.drawable.cat);
+            mp = MediaPlayer.create(getContext().getApplicationContext(), R.raw.meow);
+            mp.start();
         }
         else if(img.equals("bird"))
         {
             text.setBackgroundResource(R.drawable.bird);
+            mp = MediaPlayer.create(getContext().getApplicationContext(), R.raw.whistle);
+            mp.start();
         }
         else
         {
             text.setBackgroundResource(R.drawable.fish);
+            mp = MediaPlayer.create(getContext().getApplicationContext(), R.raw.blub);
+            mp.start();
         }
     }
 
